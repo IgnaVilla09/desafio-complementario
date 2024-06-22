@@ -1,6 +1,6 @@
 # Desafio Coder
 
-Backend para ecommerce. Se aplicaron patrones de diseño (DAO, DTO), mailing, variables de entorno, prueba de errores, mocks y loggers.
+Backend para ecommerce. Se aplicaron patrones de diseño (DAO, DTO), mailing, variables de entorno, prueba de errores, autenticación con JWT, mocks y loggers.
 
 ## Deployment
 
@@ -14,17 +14,20 @@ Para ejecutar se necesita instalar paquetes de node, configurar variables de ent
 
 - Registro/Login.
 - Registro con Github.
+- Recuperación de contraseña con JWT.
 - Logout.
+- Autenticación con JWT.
 - (Solo para usuarios) Acceder al chat.
-- (Solo para usuarios) Añadir productos al carrito.
+- (Solo para usuarios, Premium) Añadir productos al carrito.
 - Ver el carrito.
+- Cambio de rol de premium/usuario.
 - Eliminar individualmente items del carrito.
 - Eliminar todos los items del carrito.
 - Procesar compra (DETALLADO MAS ABAJO).
 - Ver listado en tiempo real.
-- (Solo para admin) Añadir productos a la tienda.
+- (Solo para admin, Premium) Añadir productos a la tienda.
 - (Solo para admin) Actualizar información de items de la tienda.
-- (Solo para admin) Eliminar de items de la tienda.
+- (Solo para admin, Premium(limitado)) Eliminar de items de la tienda.
 
 #### Detalles de funcionamiento:
 
@@ -61,6 +64,15 @@ Se añadió un endpoint que genera muestra de loggers dependiendo del MODE del .
 ```
 
 ## PROCESO DE COMPRA
+
+### Restricciones
+
+El usuario Premium y Admin puede crear productos, el usuario premium no puede añadir al carrito su propio producto. El admin no puede agregar ningun producto al carrito, ni realizarlas.
+
+El usuario admin/premium pueden eliminar productos de la tienda. Premium solo sus productos, admin cualquiera de ellos.
+
+
+## COMPRAS:
 
 El carrito posee un botón de procesamiento de compra. Al accionarse se realizan 2 acciones.
 
