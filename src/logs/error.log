@@ -1,169 +1,4 @@
 {
-  message: 'Usuario sin autorización de ejecutar función',
-  level: 'fatal',
-  timestamp: '2024-06-20T03:07:51.391Z'
-}
-{
-  message: 'Usuario sin autorización de ejecutar función',
-  level: 'fatal',
-  timestamp: '2024-06-20T03:14:09.099Z'
-}
-{
-  message: 'Usuario sin autorización de ejecutar función',
-  level: 'fatal',
-  timestamp: '2024-06-20T03:15:17.638Z'
-}
-{
-  message: 'Error: Missing helper: "eq"\n' +
-    '    at Object.<anonymous> (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\helper-missing.js:19:13)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at eval (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:17:143)\n' +
-    '    at prog (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:268:12)\n' +
-    '    at execIteration (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:51:19)\n' +
-    '    at Object.<anonymous> (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:61:13)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at Object.eval [as main] (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:15:49)\n' +
-    '    at main (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:208:32)\n' +
-    '    at ret (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:212:12)',
-  level: 'fatal',
-  timestamp: '2024-06-20T03:19:10.930Z'
-}
-{
-  message: 'TypeError: options.inverse is not a function\n' +
-    '    at Object.eq (file:///D:/desafio-backend-loggers/src/app.js:42:80)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at eval (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:17:143)\n' +
-    '    at prog (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:268:12)\n' +
-    '    at execIteration (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:51:19)\n' +
-    '    at Object.<anonymous> (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:61:13)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at Object.eval [as main] (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:15:49)\n' +
-    '    at main (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:208:32)\n' +
-    '    at ret (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:212:12)',
-  level: 'fatal',
-  timestamp: '2024-06-20T03:21:40.344Z'
-}
-{
-  message: 'TypeError: options.inverse is not a function\n' +
-    '    at Object.eq (file:///D:/desafio-backend-loggers/src/app.js:43:80)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at eval (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:17:231)\n' +
-    '    at prog (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:268:12)\n' +
-    '    at execIteration (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:51:19)\n' +
-    '    at Object.<anonymous> (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:61:13)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at Object.eval [as main] (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:15:49)\n' +
-    '    at main (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:208:32)\n' +
-    '    at ret (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:212:12)',
-  level: 'fatal',
-  timestamp: '2024-06-20T03:25:28.832Z'
-}
-{
-  message: 'TypeError: options.inverse is not a function\n' +
-    '    at Object.eq (file:///D:/desafio-backend-loggers/src/app.js:44:60)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at eval (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:17:231)\n' +
-    '    at prog (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:268:12)\n' +
-    '    at execIteration (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:51:19)\n' +
-    '    at Object.<anonymous> (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:61:13)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at Object.eval [as main] (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:15:49)\n' +
-    '    at main (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:208:32)\n' +
-    '    at ret (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:212:12)',
-  level: 'fatal',
-  timestamp: '2024-06-20T03:29:35.029Z'
-}
-{
-  message: 'TypeError: options.inverse is not a function\n' +
-    '    at Object.eq (file:///D:/desafio-backend-loggers/src/app.js:44:60)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at eval (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:17:231)\n' +
-    '    at prog (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:268:12)\n' +
-    '    at execIteration (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:51:19)\n' +
-    '    at Object.<anonymous> (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:61:13)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at Object.eval [as main] (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:15:49)\n' +
-    '    at main (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:208:32)\n' +
-    '    at ret (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:212:12)',
-  level: 'fatal',
-  timestamp: '2024-06-20T03:29:37.647Z'
-}
-{
-  message: 'TypeError: options.inverse is not a function\n' +
-    '    at Object.eq (file:///D:/desafio-backend-loggers/src/app.js:44:60)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at eval (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:17:231)\n' +
-    '    at prog (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:268:12)\n' +
-    '    at execIteration (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:51:19)\n' +
-    '    at Object.<anonymous> (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:61:13)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at Object.eval [as main] (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:15:49)\n' +
-    '    at main (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:208:32)\n' +
-    '    at ret (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:212:12)',
-  level: 'fatal',
-  timestamp: '2024-06-20T03:29:47.082Z'
-}
-{
-  message: 'TypeError: options.inverse is not a function\n' +
-    '    at Object.eq (file:///D:/desafio-backend-loggers/src/app.js:44:60)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at eval (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:17:231)\n' +
-    '    at prog (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:268:12)\n' +
-    '    at execIteration (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:51:19)\n' +
-    '    at Object.<anonymous> (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:61:13)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at Object.eval [as main] (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:15:49)\n' +
-    '    at main (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:208:32)\n' +
-    '    at ret (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:212:12)',
-  level: 'fatal',
-  timestamp: '2024-06-20T03:31:11.030Z'
-}
-{
-  message: 'TypeError: options.inverse is not a function\n' +
-    '    at Object.eq (file:///D:/desafio-backend-loggers/src/app.js:44:60)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at eval (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:17:231)\n' +
-    '    at prog (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:268:12)\n' +
-    '    at execIteration (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:51:19)\n' +
-    '    at Object.<anonymous> (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:61:13)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at Object.eval [as main] (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:15:49)\n' +
-    '    at main (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:208:32)\n' +
-    '    at ret (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:212:12)',
-  level: 'fatal',
-  timestamp: '2024-06-20T03:32:51.984Z'
-}
-{
-  message: "Error: if doesn't match unless - 34:11\n" +
-    '    at validateClose (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\helpers.js:28:11)\n' +
-    '    at Object.prepareBlock (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\helpers.js:142:5)\n' +
-    '    at Object.anonymous (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\parser.js:65:33)\n' +
-    '    at Parser.parse (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\parser.js:367:48)\n' +
-    '    at parseWithoutProcessing (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\base.js:46:33)\n' +
-    '    at HandlebarsEnvironment.parse (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\base.js:52:13)\n' +
-    '    at compileInput (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\compiler.js:508:19)\n' +
-    '    at ret (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\compiler.js:517:18)\n' +
-    '    at ExpressHandlebars._renderTemplate (D:\\desafio-backend-loggers\\node_modules\\express-handlebars\\dist\\express-handlebars.js:244:16)\n' +
-    '    at ExpressHandlebars.<anonymous> (D:\\desafio-backend-loggers\\node_modules\\express-handlebars\\dist\\express-handlebars.js:156:31)',
-  level: 'fatal',
-  timestamp: '2024-06-20T03:35:01.692Z'
-}
-{
-  message: 'Error: Missing helper: "usuario.role"\n' +
-    '    at Object.<anonymous> (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\helper-missing.js:19:13)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at eval (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:17:252)\n' +
-    '    at prog (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:268:12)\n' +
-    '    at execIteration (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:51:19)\n' +
-    '    at Object.<anonymous> (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\helpers\\each.js:61:13)\n' +
-    '    at Object.wrapper (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n' +
-    '    at Object.eval [as main] (eval at createFunctionContext (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:15:49)\n' +
-    '    at main (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:208:32)\n' +
-    '    at ret (D:\\desafio-backend-loggers\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:212:12)',
-  level: 'fatal',
-  timestamp: '2024-06-20T04:46:06.470Z'
-}
-{
   message: 'El usuario es el dueño del producto',
   level: 'fatal',
   timestamp: '2024-06-20T15:39:30.779Z'
@@ -347,4 +182,121 @@
     '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
   level: 'fatal',
   timestamp: '2024-06-22T03:48:57.519Z'
+}
+{
+  message: 'Usuario sin autorización de ejecutar función',
+  level: 'fatal',
+  timestamp: '2024-06-25T15:42:31.688Z'
+}
+{
+  message: 'Usuario sin autorización de ejecutar función',
+  level: 'fatal',
+  timestamp: '2024-06-25T15:42:36.259Z'
+}
+{
+  message: 'Usuario sin autorización de ejecutar función',
+  level: 'fatal',
+  timestamp: '2024-06-25T15:42:39.535Z'
+}
+{
+  message: 'Usuario sin autorización de ejecutar función',
+  level: 'fatal',
+  timestamp: '2024-06-25T15:43:13.125Z'
+}
+{
+  message: 'Usuario sin autorización de ejecutar función',
+  level: 'fatal',
+  timestamp: '2024-06-25T15:43:32.997Z'
+}
+{
+  message: 'Usuario sin autorización de ejecutar función',
+  level: 'fatal',
+  timestamp: '2024-06-25T15:43:52.329Z'
+}
+{
+  message: 'Error al crear producto, propiedades obligatorias',
+  level: 'fatal',
+  timestamp: '2024-06-25T15:44:48.259Z'
+}
+{
+  message: 'Se han detectado args inválidos.\n' +
+    'Argumentos requeridos:\n' +
+    '    - Nombre: tipo string. Se ingresó \n' +
+    '    - Precio: tipo number. Se ingreso \n' +
+    '    - Code: tipo number. Se ingreso \n' +
+    '    - Stock: tipo number. Se ingreso  \n' +
+    'Argumentos opcionales:\n' +
+    '    - Descripción, imágenes, estado y categoría. Se ingreso {"description":"","owner":"","category":"","thumbnails":"","status":"true"}\n' +
+    '\n' +
+    'Fecha: Tue, 25 Jun 2024 15:44:48 GMT\n' +
+    'Usuario: Ignacio\n' +
+    'Terminal: DESKTOP-TUMNVVU',
+  level: 'fatal',
+  timestamp: '2024-06-25T15:44:48.260Z'
+}
+{
+  message: 'No se encontró token de autenticación',
+  level: 'fatal',
+  timestamp: '2024-07-03T01:29:20.894Z'
+}
+{
+  name: 'JsonWebTokenError',
+  message: 'Error al verificar la autenticación: jwt must be provided',
+  level: 'fatal',
+  stack: 'JsonWebTokenError: jwt must be provided\n' +
+    '    at module.exports [as verify] (D:\\CursoBackend\\desafio-complementario\\node_modules\\jsonwebtoken\\verify.js:60:17)\n' +
+    '    at auth (file:///D:/CursoBackend/desafio-complementario/src/middlewares/auth.js:20:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  timestamp: '2024-07-03T01:29:20.897Z'
+}
+{
+  message: 'No se encontró token de autenticación',
+  level: 'fatal',
+  timestamp: '2024-07-03T02:34:27.211Z'
+}
+{
+  name: 'JsonWebTokenError',
+  message: 'Error al verificar la autenticación: jwt must be provided',
+  level: 'fatal',
+  stack: 'JsonWebTokenError: jwt must be provided\n' +
+    '    at module.exports [as verify] (D:\\CursoBackend\\desafio-complementario\\node_modules\\jsonwebtoken\\verify.js:60:17)\n' +
+    '    at auth (file:///D:/CursoBackend/desafio-complementario/src/middlewares/auth.js:20:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  timestamp: '2024-07-03T02:34:27.214Z'
+}
+{
+  message: 'No se encontró token de autenticación',
+  level: 'fatal',
+  timestamp: '2024-07-03T02:34:32.295Z'
+}
+{
+  name: 'JsonWebTokenError',
+  message: 'Error al verificar la autenticación: jwt must be provided',
+  level: 'fatal',
+  stack: 'JsonWebTokenError: jwt must be provided\n' +
+    '    at module.exports [as verify] (D:\\CursoBackend\\desafio-complementario\\node_modules\\jsonwebtoken\\verify.js:60:17)\n' +
+    '    at auth (file:///D:/CursoBackend/desafio-complementario/src/middlewares/auth.js:20:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (D:\\CursoBackend\\desafio-complementario\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  timestamp: '2024-07-03T02:34:32.296Z'
 }

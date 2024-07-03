@@ -47,10 +47,7 @@ export default class productController {
       status,
     } = req.body;
 
-    let owner = req.user._id
-
-    console.log(owner)
-   
+    let owner = req.user._id   
     const ownerAdmin = await usuariosModelo.findById(owner)
 
     if(ownerAdmin.role == "admin") {
@@ -58,7 +55,6 @@ export default class productController {
     }
 
 
-    console.log(owner)
 
     if (!title || !code || !price || !stock) {
       try {
@@ -66,7 +62,7 @@ export default class productController {
           name: "Error al crear producto",
           cause: args(req.body),
           message: "Complete las propiedades obligatorias.",
-          code: ERRORES["ARGUMENTOS INVALIDOS"],
+          code: ERRORES["ARGUMENTOS INVÁLIDOS"],
         });
       } catch (error) {
         req.logger.fatal("Error al crear producto, propiedades obligatorias");

@@ -36,7 +36,7 @@ export const adminAuth = async (req, res, next) => {
         name: "Error de autenticación",
         cause: "Autenticación",
         message: "Usuario sin permisos para ejecutar método",
-        code: ERRORES.AUTORIZACION,
+        code: ERRORES.AUTORIZACIÓN,
       });
     } catch (error) {
       return next(error);

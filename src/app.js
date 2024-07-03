@@ -20,11 +20,36 @@ import {
 import { config } from "./config/config.js";
 import { handleError } from "./middlewares/handleError.js";
 import cookieParser from "cookie-parser";
+import swaggerJSDoc from "swagger-jsdoc";
+import swaggerUi from "swagger-ui-express";
+
 
 const PORT = config.PORT;
 let io;
 
 const app = express();
+
+const options = {
+  definition: {
+    openapi: "3.0.0",
+    info: {
+      title: "Curso Backend",
+      version: "1.0.0",
+      description:
+        "API para el curso de Backend de Coderhouse",
+    },
+    servers: [
+      {
+        url: "http://localhost:8080",
+      },
+    ],
+  },
+  apis: [path.join(__dirname, "docs/*.yaml")],
+}
+
+const spec = swaggerJSDoc(options)
+
+
 
 const serverHttp = app.listen(PORT, () => {
   logger.debug(`Server escuchando en puerto ${PORT}`);
@@ -47,6 +72,8 @@ app.engine(
 
 app.set("view engine", "handlebars");
 app.set("views", path.join(__dirname, "views"));
+
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(spec));
 
 app.use(middlog);
 app.use(express.json());

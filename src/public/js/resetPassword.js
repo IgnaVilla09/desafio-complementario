@@ -4,7 +4,6 @@ btnReset.addEventListener('click', async (e) => {
     e.preventDefault()
     
     let email = input.value.trim()
-    console.log(email)
 
     if(email === ""){
         alert("Debe ingresar un email")

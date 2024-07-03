@@ -24,14 +24,12 @@ document.addEventListener("DOMContentLoaded", () => {
         if (response.ok) {
           const data = await response.json();
           alert("Producto agregado al carrito correctamente")
-          console.log("Producto agregado al carrito:", data);
         } else {
           const errorData = await response.json();
           alert(errorData.error)
-          console.error("Error al agregar el producto al carrito:", errorData);
         }
       } catch (error) {
-        console.error("Error al enviar la solicitud:", error);
+        alert("Error al enviar la solicitud:", error);
       }
     });
   });
@@ -49,14 +47,14 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         if (response.ok) {
-          alert("Carrito vacio!");
+          alert("Carrito vacío!");
           location.reload();
         } else {
-          alert("CARRITO NO VACIO");
+          alert("CARRITO NO VACÍO");
         }
       } catch (error) {
         console.error("Error:" + error);
-        alert("CARRITO NO VACIO, ALGO SALIO MAL: " + error);
+        alert("CARRITO NO VACIÓ, ALGO SALIO MAL: " + error);
       }
     });
   });
@@ -67,7 +65,6 @@ document.addEventListener("DOMContentLoaded", () => {
       event.preventDefault()
 
       const cartId = event.target.getAttribute("data-cart-id-item");
-      console.log(cartId)
       const productId = event.target.getAttribute("data-producto-id-item");
 
       try {
@@ -82,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
           alert("Error al eliminar producto");
         }
       } catch (error) {
-        alert("Algo salio mal en la peticion DELETE: " + error);
+        alert("Algo salio mal en la petición DELETE: " + error);
       }
     });
   });
